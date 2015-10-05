@@ -1,0 +1,628 @@
+{
+    "cards": [
+        {
+            "rD": "Zagraj karte z wierzchu kupki kart odrzuconych",
+            "wD": "Nastawienie Duchy 1. Nastawienie Wilkołaki 1. Obrażenia Duchy 1. Obrażenia Wilkołaki 1",
+            "wN": "Klasa Średnia",
+            "rN": "Wola boska"
+        },
+        {
+            "rD": "Zamien wskazanego sługę spowrotem w pełnoprawnego wroga Wędrowycza. Odwróć go kolorem do góry.",
+            "wD": "Nastawienie Bardaki 1. Moc 1",
+            "wN": "Bimber",
+            "rN": "Przymusowe nawrócenie"
+        },
+        {
+            "rD": "Przesuń totem na sąsiednie nie posiadajace totemu pole",
+            "wD": "Nastawienie Bardaki 1. Nastawienie Duchy 2. ",
+            "wN": "Czerwona Hołota",
+            "rN": "Relokacja "
+        },
+        {
+            "rD": "Wystaw mały zestaw początkowy o ile masz na niego pionki. Strać 1 punkt zwycięstwa",
+            "wD": "Nastawienie Bardaki 2. Za każde zabite przez Wędrowycza 2 bardaki, gracz musi usunąć innego swojego pionka z tego regionu",
+            "wN": "Z rozpędu",
+            "rN": "Bonusik"
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Ducha bądź 1 ducha na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu",
+            "wD": "Nastawienie Bardaki 1. Nastawienie Duchy 2. ",
+            "wN": "Czerwona Hołota",
+            "rN": "Dusza na ramieniu"
+        },
+        {
+            "rD": "Wymien 4 Bardaki na 2 pionki z jednej z wyższych ras bądz 2 pionki jednej z wyższych ras na 4 Bardaki. Wymiana obejmuje całą planszę.",
+            "wD": "Nastawienie Wilkołaki 2. Obrażenia Wilkołaki 2.",
+            "wN": "Linka hamulcowa",
+            "rN": "Do lombardu"
+        },
+        {
+            "rD": "Zabij cudzego pionka z planszy. Strać za to punkt zwycięstwa.",
+            "wD": "W tej rundzie wszystkie modyfikatory mocy liczą się podwójnie.",
+            "wN": "Ukraiński Duracel",
+            "rN": "Za Kucyka!!!"
+        },
+        {
+            "rD": "Zabij cudzego pionka z planszy. Strać za to punkt zwycięstwa.",
+            "wD": "W fazie R region z Wędrowyczem niepodlega żadnym kartą akcjii.",
+            "wN": "Skan Telepatyczny",
+            "rN": "Za Kucyka!!!"
+        },
+        {
+            "rD": "Wskaż dowolnego Ducha. Przesuń jednego pionka innego koloru i rasy do przylegającego regionu",
+            "wD": "Nastawienie Wampiry 1. Moc 1",
+            "wN": "Śliwowica",
+            "rN": "Przewaga duchowa"
+        },
+        {
+            "rD": "Wystaw mały zestaw początkowy o ile masz na niego pionki. Strać 1 punkt zwycięstwa",
+            "wD": "Obrażenia Bardaki 1. Obrażenia Wilkołaki 1. Obrażenia Wampiry 1.",
+            "wN": "Nożyk do czosnku",
+            "rN": "Bonusik"
+        },
+        {
+            "rD": "Wymień 1 kartę ze swojej ręki na losową kartę z ręki przeciwnika",
+            "wD": "Obrażenia Bardaki 1. Obrażenia Wilkołaki 1. Obrażenia Wampiry 1.",
+            "wN": "Nożyk do czosnku",
+            "rN": "Dobra okazja"
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Wampira bądź 1 Wampira na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu",
+            "wD": "Moc -2",
+            "wN": "Kawa",
+            "rN": "Awans"
+        },
+        {
+            "rD": "REAKCJA: Zagrana karta przeciwnika nie działa",
+            "wD": "Nastawienie Bardaki 1. Moc 1",
+            "wN": "Bimber",
+            "rN": "Choroba weneryczna"
+        },
+        {
+            "rD": "REAKCJA :  Kiedy twój Bardak ma zginąć, przesun go do sąsiedniego regionu",
+            "wD": "Nastawienie Wampiry 1, Obrażenia Wampiry 1. Gracz traci 2 punkty za każdego straconego wampira w tej rundzie",
+            "wN": "Vladzio D.",
+            "rN": "Boska Protekcja"
+        },
+        {
+            "rD": "Zamień miejscami 2 pionki z sąsiednich regionów. Pionki muszą być innej rasy i koloru",
+            "wD": "Po walce z Wędrowyczem pionki najmiej licznej nacji w najbardziej zaludnionym regionie przesówane są do sąsiednich regionów.",
+            "wN": "Ciasno",
+            "rN": "Wymiana międzynarodowa"
+        },
+        {
+            "rD": "Zwiększ swój limit kart o 2  w następnej turze",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 1.",
+            "wN": "Gazrurka",
+            "rN": "Poszerzone Horyzonty"
+        },
+        {
+            "rD": "Wskaż dowolnego Ducha. Przesuń jednego pionka innego koloru i rasy do przylegającego regionu",
+            "wD": "Moc -2",
+            "wN": "Kawa",
+            "rN": "Przewaga duchowa"
+        },
+        {
+            "rD": "REAKCJA: Zagrana karta przeciwnika nie działa",
+            "wD": "Nastawienie Duchy 2. Obrażenia Duchy 2.",
+            "wN": "Księga egzorcysty",
+            "rN": "Choroba weneryczna"
+        },
+        {
+            "rD": "Zamień miejscami 2 pionki z sąsiednich regionów. Pionki muszą być innej rasy i koloru",
+            "wD": "Wędrowycz w tej rundzie nie może pozostać w tym samym regionie. Jeżeli rasa, na którą się nastawił jest w tym regionie porusz Wędrowycza według kolejnego nastawienia. Jeżeli brakuje nastawień pierwszy gracz wybiera",
+            "wN": "ADHD",
+            "rN": "Wymiana międzynarodowa"
+        },
+        {
+            "rD": "Wskaż dowolnego Ducha. Przesuń jednego pionka innego koloru i rasy do przylegającego regionu",
+            "wD": "Nastawienie Wampiry 2. Nastawienie Duchy 1. Obrażenia Wampiry 2. Obrażenia Duchy 1",
+            "wN": "Woda święcona",
+            "rN": "Przewaga duchowa"
+        },
+        {
+            "rD": "Zwiększ minimalny limit kart do zagrania w fazie Wędrowycza przez wskazanego gracza o 2 w następnej rundzie.",
+            "wD": "Nastawienie Wampiry 1. Moc 1",
+            "wN": "Śliwowica",
+            "rN": "Spiskowiec"
+        },
+        {
+            "rD": "Wymień 1 kartę ze swojej ręki na losową kartę z ręki przeciwnika",
+            "wD": "Nastawienie Bardaki 2. Obrażenia Bardaki 2. Obrażenia Duchy 1",
+            "wN": "Nieszczery uśmiech",
+            "rN": "Dobra okazja"
+        },
+        {
+            "rD": "Zamień miejscami 2 pionki z sąsiednich regionów. Pionki muszą być innej rasy i koloru",
+            "wD": "Nastawienie Wilkołaki 1. Obrażenia Wilkołaki 1. Obrażenia Bardaki 1",
+            "wN": "Posrebrzany pogrzebacz",
+            "rN": "Wymiana międzynarodowa"
+        },
+        {
+            "rD": "REAKCJA: Zagrana karta przeciwnika nie działa",
+            "wD": "Nastawienie Wilkołaki 2. Obrażenia Wilkołaki 2.",
+            "wN": "Linka hamulcowa",
+            "rN": "Choroba weneryczna"
+        },
+        {
+            "rD": "REAKCJA: Zagrana karta przeciwnika nie działa",
+            "wD": "Moc 1. Dodaj kartę z talii kart nie odkrytych.",
+            "wN": "Loteria",
+            "rN": "Choroba weneryczna"
+        },
+        {
+            "rD": "Wystaw średni zestaw początkowy o ile masz na niego pionki. Strać 2 punkty zwycięstwa",
+            "wD": "W fazie R region z Wędrowyczem niepodlega żadnym kartą akcjii.",
+            "wN": "Skan Telepatyczny",
+            "rN": "Bonus"
+        },
+        {
+            "rD": "Dołóż Bardaka do regionu ze swoim Bardakiem albo przylegającego.",
+            "wD": "Nastawienie Bardaki 2. Za każde zabite przez Wędrowycza 2 bardaki, gracz musi usunąć innego swojego pionka z tego regionu",
+            "wN": "Z rozpędu",
+            "rN": "Reprodukcja"
+        },
+        {
+            "rD": "Przesuń totem na sąsiednie nie posiadajace totemu pole",
+            "wD": "Nastawienie Wilkołaki 1. Obrażenia Wilkołaki 1. Obrażenia Bardaki 1",
+            "wN": "Posrebrzany pogrzebacz",
+            "rN": "Relokacja "
+        },
+        {
+            "rD": "Dołóż Bardaka do regionu ze swoim Bardakiem albo przylegającego.",
+            "wD": "Nastawienie Wilkołaki 1. Moc 1",
+            "wN": "Pryta",
+            "rN": "Reprodukcja"
+        },
+        {
+            "rD": "Przesuń dowolną punktację o turę w dowolnym kierunku. Punktacje nie mogą się się nachodzić i nie mogę przejśc poza ostatnią turę.",
+            "wD": "Nastawienie Wilkołaki 1. Moc 1",
+            "wN": "Pryta",
+            "rN": "Już jutro pierwszy"
+        },
+        {
+            "rD": "Jeżeli pionek wyższej rasy zginął w tej rundzie, wraca on na planszę do regionu zdominowanego przez wlaściciela.",
+            "wD": "Obrażenia Bardaki 1. Obrażenia Wilkołaki 1. Obrażenia Wampiry 1.",
+            "wN": "Nożyk do czosnku",
+            "rN": "Rezurekcja"
+        },
+        {
+            "rD": "Przesuń dowolną punktację o turę w dowolnym kierunku. Punktacje nie mogą się się nachodzić i nie mogę przejśc poza ostatnią turę.",
+            "wD": "Obrażenia Duchy 2.",
+            "wN": "Roboczy Egzorcyzm",
+            "rN": "Już jutro pierwszy"
+        },
+        {
+            "rD": "Zabij jednego swojego pionka z planszy zyskaj za to 1 punkt zwycięstwa.",
+            "wD": "Nastawienie Wampiry 2. Obrażenia Wampiry 2",
+            "wN": "Krucyfiks",
+            "rN": "Zaginiony w akcji"
+        },
+        {
+            "rD": "Zabij cudzego pionka z planszy. Strać za to punkt zwycięstwa.",
+            "wD": "Nastawienie Wampiry 1. Moc 1",
+            "wN": "Śliwowica",
+            "rN": "Za Kucyka!!!"
+        },
+        {
+            "rD": "Zabij jednego swojego pionka z planszy zyskaj za to 1 punkt zwycięstwa.",
+            "wD": "Nastawienie Wilkołaki 2. Jeśli Wędrowycz zabije w tej rundzie conajmniej 2 wilkolaki, zyskuje +2 mocy na następną rundę.",
+            "wN": "Biały Kieł",
+            "rN": "Zaginiony w akcji"
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Wampira bądź 1 Wampira na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu",
+            "wD": "Nastawienie Wampiry 1. Gracz (bądź gracze) ktorzy starcili najwiecej wampirów w tej fazie muszą usunąć jednego swojego bardaka z planszy",
+            "wN": "Prawie jak komar",
+            "rN": "Awans"
+        },
+        {
+            "rD": "Zmiejsz limit kart na ręce wskazanego gracza o 1 w następnej turze",
+            "wD": "Nastawienie Wilkołaki 1. Moc 1",
+            "wN": "Pryta",
+            "rN": "Ograniczona wyobraźnia"
+        },
+        {
+            "rD": "REAKCJA: Zagrana karta przeciwnika nie działa",
+            "wD": "Nastawienie Bardaki 1. Moc 1",
+            "wN": "Bimber",
+            "rN": "Choroba weneryczna"
+        },
+        {
+            "rD": "Aktualny gracz wskazuje region. Począwszy od następnego gracza w kolejności każdy gracz musi przemieścić jednego swojego pionka ze wskazanego rejonu. Aktualny gracz może pominąć swoją kolejkę",
+            "wD": "Nastawienie Bardaki 2. Obrażenia Bardaki 2, Obrażenia Wilkołaki 1",
+            "wN": "Śrutowka",
+            "rN": "Emigracja"
+        },
+        {
+            "rD": "Wilkołak gryzie jednego dowolnego Bardaka w tym samym regionie. Bardak ten zapomina o swojej przynależności partyjnej. Odwracany jest na lewą stronę.",
+            "wD": "Nastawienie Duchy 1. Moc 1",
+            "wN": "Spirytus",
+            "rN": "Akcja Degeneracja"
+        },
+        {
+            "rD": "Zagraj karte z wierzchu kupki kart odrzuconych",
+            "wD": "Zasięg wędrowycza w tej rundzie to 2.",
+            "wN": "Koń",
+            "rN": "Wola boska"
+        },
+        {
+            "rD": "Zamień jednego pionka w sługę. Odwróć go kolorem w dół.",
+            "wD": "Nastawienie Duchy 1. Moc 1",
+            "wN": "Spirytus",
+            "rN": "Przydupas"
+        },
+        {
+            "rD": "Wskaż gracza i zabierz mu 3 karty z ręki. Jedną zostaw sobie pozostałe zwróć.",
+            "wD": "Nastawienie Wilkołaki 1. Obrażenia Wilkołaki 1. Obrażenia Bardaki 1",
+            "wN": "Posrebrzany pogrzebacz",
+            "rN": "Okazja stulecia"
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Wilkołaka bądź 1 Wilkołaka na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu.",
+            "wD": "Zasięg wędrowycza w tej rundzie to 2.",
+            "wN": "Koń",
+            "rN": "Psi handel"
+        },
+        {
+            "rD": "Zabij jednego swojego pionka z planszy zyskaj za to 1 punkt zwycięstwa.",
+            "wD": "Zasięg wędrowycza w tej rundzie to 2.",
+            "wN": "Koń",
+            "rN": "Zaginiony w akcji"
+        },
+        {
+            "rD": "Jeżeli pionek wyższej rasy zginął w tej rundzie, wraca on na planszę do regionu zdominowanego przez wlaściciela.",
+            "wD": "Nastawienie Duchy 1. Nastawienie Wilkołaki 1. Obrażenia Duchy 1. Obrażenia Wilkołaki 1",
+            "wN": "Klasa Średnia",
+            "rN": "Rezurekcja"
+        },
+        {
+            "rD": "Przesuń dowolną punktację o turę w dowolnym kierunku. Punktacje nie mogą się się nachodzić i nie mogę przejśc poza ostatnią turę.",
+            "wD": "W tej rundzie wszystkie modyfikatory mocy liczą się podwójnie.",
+            "wN": "Ukraiński Duracel",
+            "rN": "Już jutro pierwszy"
+        },
+        {
+            "rD": "Zabij jednego swojego pionka z planszy zyskaj za to 1 punkt zwycięstwa.",
+            "wD": "Nastawienie Bardaki 2. Za każde zabite przez Wędrowycza 2 bardaki, gracz musi usunąć innego swojego pionka z tego regionu",
+            "wN": "Z rozpędu",
+            "rN": "Zaginiony w akcji"
+        },
+        {
+            "rD": "Zmiejsz limit kart na ręce wskazanego gracza o 1 w następnej turze",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 1.",
+            "wN": "Gazrurka",
+            "rN": "Ograniczona wyobraźnia"
+        },
+        {
+            "rD": "Jeżeli pionek wyższej rasy zginął w tej rundzie, wraca on na planszę do regionu zdominowanego przez wlaściciela.",
+            "wD": "Moc -2",
+            "wN": "Kawa",
+            "rN": "Rezurekcja"
+        },
+        {
+            "rD": "Wilkołak gryzie jednego dowolnego Bardaka w tym samym regionie. Bardak ten zapomina o swojej przynależności partyjnej. Odwracany jest na lewą stronę.",
+            "wD": "Nastawienie Bardaki 2. Obrażenia Bardaki 2, Obrażenia Wilkołaki 1",
+            "wN": "Śrutowka",
+            "rN": "Akcja Degeneracja"
+        },
+        {
+            "rD": "Jeżeli w regionie znajdują sie Wampiry tylko twojego koloru to  możesz ugryść bardaka dowolnego innego koloru i zamienić go w swojego Wampira.",
+            "wD": "Nastawienie Bardaki 2. Obrażenia Bardaki 2. Obrażenia Duchy 1",
+            "wN": "Nieszczery uśmiech",
+            "rN": "Przewaga rasowa"
+        },
+        {
+            "rD": "Zabij cudzego pionka z planszy. Strać za to punkt zwycięstwa.",
+            "wD": "Nastawienie Bardaki 2. Za każde zabite przez Wędrowycza 2 bardaki, gracz musi usunąć innego swojego pionka z tego regionu",
+            "wN": "Z rozpędu",
+            "rN": "Za Kucyka!!!"
+        },
+        {
+            "rD": "REAKCJA: Zagrana karta przeciwnika nie działa",
+            "wD": "Nastawienie Duchy 2. Obrażenia Duchy 2.",
+            "wN": "Księga egzorcysty",
+            "rN": "Choroba weneryczna"
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Wilkołaka bądź 1 Wilkołaka na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu.",
+            "wD": "Po fazie wędrowycza, każdy gracz przesówa swoje pozostałe przy życiu Bardaki z regionu z wendrowycze do przylegających regionów",
+            "wN": "Śmierdzące onuce",
+            "rN": "Psi handel"
+        },
+        {
+            "rD": "Przesuń totem na sąsiednie nie posiadajace totemu pole",
+            "wD": "Nastawienie Wilkołaki 2. Obrażenia Wilkołaki 2.",
+            "wN": "Linka hamulcowa",
+            "rN": "Relokacja "
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Ducha bądź 1 ducha na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 1.",
+            "wN": "Gazrurka",
+            "rN": "Dusza na ramieniu"
+        },
+        {
+            "rD": "Zwiększ minimalny limit kart do zagrania w fazie Wędrowycza przez wskazanego gracza o 2 w następnej rundzie.",
+            "wD": "Nastawienie Wampiry 2. Jeśli Wędrowycz zabije w tej rundzie conajmniej 2 wampiry, zyskuje +2 mocy na następną rundę.",
+            "wN": "Drakula Psikula",
+            "rN": "Spiskowiec"
+        },
+        {
+            "rD": "Zwiększ swój limit kart o 2  w następnej turze",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 1.",
+            "wN": "Gazrurka",
+            "rN": "Poszerzone Horyzonty"
+        },
+        {
+            "rD": "REAKCJA :  Kiedy twój Bardak ma zginąć, przesun go do sąsiedniego regionu",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 1.",
+            "wN": "Gazrurka",
+            "rN": "Boska Protekcja"
+        },
+        {
+            "rD": "Wskaż gracza i zabierz mu 3 karty z ręki. Jedną zostaw sobie pozostałe zwróć.",
+            "wD": "Nastawienie Bardaki 2. Obrażenia Bardaki 2, Obrażenia Wilkołaki 1",
+            "wN": "Śrutowka",
+            "rN": "Okazja stulecia"
+        },
+        {
+            "rD": "REAKCJA: Zagrana karta przeciwnika nie działa",
+            "wD": "Moc 1. Dodaj kartę z talii kart nie odkrytych.",
+            "wN": "Loteria",
+            "rN": "Choroba weneryczna"
+        },
+        {
+            "rD": "Zamień jednego pionka w sługę. Odwróć go kolorem w dół.",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 1.",
+            "wN": "Gazrurka",
+            "rN": "Przydupas"
+        },
+        {
+            "rD": "Dołóż Bardaka do regionu ze swoim Bardakiem albo przylegającego.",
+            "wD": "Nastawienie Bardaki 1. Nastawienie Duchy 2. ",
+            "wN": "Czerwona Hołota",
+            "rN": "Reprodukcja"
+        },
+        {
+            "rD": "Wystaw totem do regionu z bardakiem dowolnego koloru.",
+            "wD": "Jeżeli Wędrowyczowi po fazie ataku zostaną jakieś obrażenia to wyzeruj rasę na którą szedł obecnie i wykonaj ponownie fazę poruszania nim według pozostałych statystyk.",
+            "wN": "Jakubizm",
+            "rN": "Totem"
+        },
+        {
+            "rD": "Jeżeli w regionie znajdują sie Wampiry tylko twojego koloru to  możesz ugryść bardaka dowolnego innego koloru i zamienić go w swojego Wampira.",
+            "wD": "Obrażenia Duchy 2.",
+            "wN": "Roboczy Egzorcyzm",
+            "rN": "Przewaga rasowa"
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Ducha bądź 1 ducha na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu",
+            "wD": "Nastawienie Bardaki 2. Obrażenia Bardaki 2, Obrażenia Wilkołaki 1",
+            "wN": "Śrutowka",
+            "rN": "Dusza na ramieniu"
+        },
+        {
+            "rD": "Wskaż dowolnego Ducha. Przesuń jednego pionka innego koloru i rasy do przylegającego regionu",
+            "wD": "Moc -2",
+            "wN": "Kawa",
+            "rN": "Przewaga duchowa"
+        },
+        {
+            "rD": "Podejżyje następne wydarzenie. Następnie odłuż je spowrotem na wierzch lub podspód kupki.",
+            "wD": "Nastawienie Bardaki 1. Moc 1",
+            "wN": "Bimber",
+            "rN": "Trzecie Oko"
+        },
+        {
+            "rD": "REAKCJA Zabierz właśnie zagraną kartę, następna tura cię mija. Nie możesz tego zrobić jeżeli jesteś ostatnim graczem w fazie ruchu.",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 2. Moc 1",
+            "wN": "Czas Pogardy",
+            "rN": "To się przyda"
+        },
+        {
+            "rD": "Zmiejsz limit kart na ręce wskazanego gracza o 1 w następnej turze",
+            "wD": "Nastawienie Duchy 2. Obrażenia Duchy 2.",
+            "wN": "Księga egzorcysty",
+            "rN": "Ograniczona wyobraźnia"
+        },
+        {
+            "rD": "Jeżeli pionek wyższej rasy zginął w tej rundzie, wraca on na planszę do regionu zdominowanego przez wlaściciela.",
+            "wD": "Obrażenia Bardaki 1. Obrażenia Wilkołaki 1. Obrażenia Wampiry 1.",
+            "wN": "Nożyk do czosnku",
+            "rN": "Rezurekcja"
+        },
+        {
+            "rD": "Zamien wskazanego sługę spowrotem w pełnoprawnego wroga Wędrowycza. Odwróć go kolorem do góry.",
+            "wD": "Moc 1. Dodaj kartę z talii kart nie odkrytych.",
+            "wN": "Loteria",
+            "rN": "Przymusowe nawrócenie"
+        },
+        {
+            "rD": "Wystaw duży zestaw początkowy o ile Cię na niego stać. Strać 3 punkty zwycięstwa",
+            "wD": "Nastawienie Wampiry 2. Obrażenia Wampiry 2",
+            "wN": "Krucyfiks",
+            "rN": "Mega Bonus"
+        },
+        {
+            "rD": "Wskaż gracza i zabierz mu 3 karty z ręki. Jedną zostaw sobie pozostałe zwróć.",
+            "wD": "Obrażenia Bardaki 1. Obrażenia Wilkołaki 1. Obrażenia Wampiry 1.",
+            "wN": "Nożyk do czosnku",
+            "rN": "Okazja stulecia"
+        },
+        {
+            "rD": "Zamień jednego pionka w sługę. Odwróć go kolorem w dół.",
+            "wD": "Nastawienie Wampiry 2. Nastawienie Duchy 1. Obrażenia Wampiry 2. Obrażenia Duchy 1",
+            "wN": "Woda święcona",
+            "rN": "Przydupas"
+        },
+        {
+            "rD": "Wilkołak gryzie jednego dowolnego Bardaka w tym samym regionie. Bardak ten zapomina o swojej przynależności partyjnej. Odwracany jest na lewą stronę.",
+            "wD": "Nastawienie Duchy 1. Obrażenia Duchy 2. Jeśli Wędrowycz zabije w tej rundzie conajmniej 2 duchy, zyskuje +2 mocy na następną rundę.",
+            "wN": "Uduchowienie",
+            "rN": "Akcja Degeneracja"
+        },
+        {
+            "rD": "Zwiększ minimalny limit kart do zagrania w fazie Wędrowycza przez wskazanego gracza o 2 w następnej rundzie.",
+            "wD": "Nastawienie Duchy 1. Za kazdego zabitego przez Wędrowycza Ducha w tej rundzie, gracz musi odrzucić jedną kartę z ręki",
+            "wN": "Dusza na ramieniu",
+            "rN": "Spiskowiec"
+        },
+        {
+            "rD": "Aktualny gracz wskazuje region. Począwszy od następnego gracza w kolejności każdy gracz musi przemieścić jednego swojego pionka ze wskazanego rejonu. Aktualny gracz może pominąć swoją kolejkę",
+            "wD": "Moc 1. Dodaj kartę z talii kart nie odkrytych.",
+            "wN": "Loteria",
+            "rN": "Emigracja"
+        },
+        {
+            "rD": "Zabij cudzego pionka z planszy. Strać za to punkt zwycięstwa.",
+            "wD": "Obrażenia Duchy 2.",
+            "wN": "Roboczy Egzorcyzm",
+            "rN": "Za Kucyka!!!"
+        },
+        {
+            "rD": "Jeżeli twój pionek pozostał jako jedyny w regionie zyskaj punkt zwycięstwa i przesuń go na sąsiednie pole.",
+            "wD": "Po fazie wędrowycza, każdy gracz przesówa swoje pozostałe przy życiu Bardaki z regionu z wendrowycze do przylegających regionów",
+            "wN": "Śmierdzące onuce",
+            "rN": "Rambo"
+        },
+        {
+            "rD": "Wskaż dowolnego Ducha. Przesuń jednego pionka innego koloru i rasy do przylegającego regionu",
+            "wD": "Obrażenia Bardaki 1. Obrażenia Wilkołaki 1. Obrażenia Wampiry 1.",
+            "wN": "Nożyk do czosnku",
+            "rN": "Przewaga duchowa"
+        },
+        {
+            "rD": "REAKCJA :  Kiedy twój Bardak ma zginąć, przesun go do sąsiedniego regionu",
+            "wD": "Nastawienie Wampiry 2. Nastawienie Duchy 1. Obrażenia Wampiry 2. Obrażenia Duchy 1",
+            "wN": "Woda święcona",
+            "rN": "Boska Protekcja"
+        },
+        {
+            "rD": "REAKCJA :  Kiedy twój Bardak ma zginąć, przesun go do sąsiedniego regionu",
+            "wD": "Nastawienie Bardaki 1. Nastawienie Duchy 2. ",
+            "wN": "Czerwona Hołota",
+            "rN": "Boska Protekcja"
+        },
+        {
+            "rD": "Wystaw totem do regionu z bardakiem dowolnego koloru.",
+            "wD": "Nastawienie Wilkołaki 1. Moc 1",
+            "wN": "Pryta",
+            "rN": "Totem"
+        },
+        {
+            "rD": "Zagraj karte z wierzchu kupki kart odrzuconych",
+            "wD": "Nastawienie Duchy 1. Za kazdego zabitego przez Wędrowycza Ducha w tej rundzie, gracz musi odrzucić jedną kartę z ręki",
+            "wN": "Dusza na ramieniu",
+            "rN": "Wola boska"
+        },
+        {
+            "rD": "Aktualny gracz wskazuje region. Począwszy od następnego gracza w kolejności każdy gracz musi przemieścić jednego swojego pionka ze wskazanego rejonu. Aktualny gracz może pominąć swoją kolejkę",
+            "wD": "Nastawienie Wampiry 2. Obrażenia Wampiry 1.",
+            "wN": "Święta figurka",
+            "rN": "Emigracja"
+        },
+        {
+            "rD": "Wymien 4 Bardaki na 2 pionki z jednej z wyższych ras bądz 2 pionki jednej z wyższych ras na 4 Bardaki. Wymiana obejmuje całą planszę.",
+            "wD": "Nastawienie Wampiry 1. Moc 1",
+            "wN": "Śliwowica",
+            "rN": "Do lombardu"
+        },
+        {
+            "rD": "Jeżeli w regionie znajdują sie Wampiry tylko twojego koloru to  możesz ugryść bardaka dowolnego innego koloru i zamienić go w swojego Wampira.",
+            "wD": "Po walce z Wędrowyczem pionki najmiej licznej nacji w najbardziej zaludnionym regionie przesówane są do sąsiednich regionów.",
+            "wN": "Ciasno",
+            "rN": "Przewaga rasowa"
+        },
+        {
+            "rD": "Zagraj karte z wierzchu kupki kart odrzuconych",
+            "wD": "Obrażenia Duchy 2.",
+            "wN": "Roboczy Egzorcyzm",
+            "rN": "Wola boska"
+        },
+        {
+            "rD": "Jeżeli pionek wyższej rasy zginął w tej rundzie, wraca on na planszę do regionu zdominowanego przez wlaściciela.",
+            "wD": "Nastawienie Duchy 1. Nastawienie Wilkołaki 1. Obrażenia Duchy 1. Obrażenia Wilkołaki 1",
+            "wN": "Klasa Średnia",
+            "rN": "Rezurekcja"
+        },
+        {
+            "rD": "Dołóż Bardaka do regionu ze swoim Bardakiem albo przylegającego.",
+            "wD": "Nastawienie Wilkołaki 1, Obrażenia Wilkołaki 1. Gracz traci 2 punkty za każdego straconego wilkolaka w tej rundzie",
+            "wN": "Kundel bury",
+            "rN": "Reprodukcja"
+        },
+        {
+            "rD": "Przesuń totem na sąsiednie nie posiadajace totemu pole",
+            "wD": "Nastawienie Wampiry 2. Obrażenia Wampiry 1.",
+            "wN": "Święta figurka",
+            "rN": "Relokacja "
+        },
+        {
+            "rD": "Wystaw średni zestaw początkowy o ile masz na niego pionki. Strać 2 punkty zwycięstwa",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 2. Moc 1",
+            "wN": "Czas Pogardy",
+            "rN": "Bonus"
+        },
+        {
+            "rD": "Zabij jednego swojego pionka z planszy zyskaj za to 1 punkt zwycięstwa.",
+            "wD": "Nastawienie Bardaki 1. Obrażenia Bardaki 2. Moc 1",
+            "wN": "Czas Pogardy",
+            "rN": "Zaginiony w akcji"
+        },
+        {
+            "rD": "REAKCJA Zabierz właśnie zagraną kartę, następna tura cię mija. Nie możesz tego zrobić jeżeli jesteś ostatnim graczem w fazie ruchu.",
+            "wD": "Moc -2",
+            "wN": "Kawa",
+            "rN": "To się przyda"
+        },
+        {
+            "rD": "Zamien wskazanego sługę spowrotem w pełnoprawnego wroga Wędrowycza. Odwróć go kolorem do góry.",
+            "wD": "Zasięg wędrowycza w tej rundzie to 2.",
+            "wN": "Koń",
+            "rN": "Przymusowe nawrócenie"
+        },
+        {
+            "rD": "Jeżeli twój pionek pozostał jako jedyny w regionie zyskaj punkt zwycięstwa i przesuń go na sąsiednie pole.",
+            "wD": "Nastawienie Duchy 1. Moc 1",
+            "wN": "Spirytus",
+            "rN": "Rambo"
+        },
+        {
+            "rD": "Wymien 2 Bardaki na 1 Wilkołaka bądź 1 Wilkołaka na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu.",
+            "wD": "Nastawienie Wilkołaki 1. Obrażenia Wilkołaki 1. Obrażenia Bardaki 1",
+            "wN": "Posrebrzany pogrzebacz",
+            "rN": "Psi handel"
+        },
+        {
+            "rD": "Jeżeli twój pionek pozostał jako jedyny w regionie zyskaj punkt zwycięstwa i przesuń go na sąsiednie pole.",
+            "wD": "Nastawienie Duchy 1. Moc 1",
+            "wN": "Spirytus",
+            "rN": "Rambo"
+        },
+        {
+            "rD": "Wystaw mały zestaw początkowy o ile masz na niego pionki. Strać 1 punkt zwycięstwa",
+            "wD": "Nastawienie Duchy 1. Nastawienie Wilkołaki 1. Obrażenia Duchy 1. Obrażenia Wilkołaki 1",
+            "wN": "Klasa Średnia",
+            "rN": "Bonusik"
+        },
+        {
+            "rD": "Zamień miejscami 2 pionki z sąsiednich regionów. Pionki muszą być innej rasy i koloru",
+            "wD": "Nastawienie Wilkołaki 2. Za każdego zabitego Wilkołaka w tej rundzie, gracz musi ściągnąć jednego swojego Bardaka z tego samego regionu. Karta działa również w fazie Ruchu",
+            "wN": "PA PA Wilk",
+            "rN": "Wymiana międzynarodowa"
+        },
+        {
+            "rD": "REAKCJA :  Kiedy twój Bardak ma zginąć, przesun go do sąsiedniego regionu",
+            "wD": "Moc -2",
+            "wN": "Kawa",
+            "rN": "Boska Protekcja"
+        },
+        {
+            "rD": "REAKCJA Zabierz właśnie zagraną kartę, następna tura cię mija. Nie możesz tego zrobić jeżeli jesteś ostatnim graczem w fazie ruchu.",
+            "wD": "Nastawienie Wampiry 2. Nastawienie Duchy 1. Obrażenia Wampiry 2. Obrażenia Duchy 1",
+            "wN": "Woda święcona",
+            "rN": "To się przyda"
+        }
+    ]
+}

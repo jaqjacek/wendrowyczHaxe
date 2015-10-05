@@ -1,5 +1,4 @@
 package pl.jaqjacek.boardgames.wendrowycz.model.card;
-
 import org.puremvc.haxe.patterns.proxy.Proxy;
 
 /**

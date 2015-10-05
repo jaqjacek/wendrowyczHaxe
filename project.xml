@@ -18,6 +18,8 @@
 	<haxelib name="openfl" />
 	<haxelib name="actuate" />
 	<haxelib name="msignal" />
+	<haxelib name="tjson" />
+	<haxelib name="dconsole" />
 	
 	<!-- assets -->
 	<icon path="assets/openfl.svg" />

@@ -1,0 +1,71 @@
+	ILE R	ILE W	Opis Kart	Nastawienie				Obrażenia			
+	104	104		37	29	23	24	34	26	25	21
+Nazwa	Ilość	Faza (W/R)	Efekt	Bardaki	Duchy 	Wilkołaki	Vampiry	Bardaki	Duchy 	Wilkołaki	Wampiry
+Czas Pogardy	3	W	Nastawienie Bardaki 1. Obrażenia Bardaki 2. Moc 1	3	0	0	0	6	0	0	0
+Nieszczery uśmiech	2	W	Nastawienie Bardaki 2. Obrażenia Bardaki 2. Obrażenia Duchy 1	4	0	0	0	4	2	0	0
+Gazrurka	6	W	Nastawienie Bardaki 1. Obrażenia Bardaki 1.	6	0	0	0	6	0	0	0
+Nożyk do czosnku	6	W	Obrażenia Bardaki 1. Obrażenia Wilkołaki 1. Obrażenia Wampiry 1.	0	0	0	0	6	0	6	6
+Posrebrzany pogrzebacz	4	W	Nastawienie Wilkołaki 1. Obrażenia Wilkołaki 1. Obrażenia Bardaki 1	0	0	4	0	4	0	4	0
+Linka hamulcowa	3	W	Nastawienie Wilkołaki 2. Obrażenia Wilkołaki 2.	0	0	6	0	0	0	6	0
+Święta figurka	2	W	Nastawienie Wampiry 2. Obrażenia Wampiry 1.	0	0	0	4	0	0	0	2
+Woda święcona	4	W	Nastawienie Wampiry 2. Nastawienie Duchy 1. Obrażenia Wampiry 2. Obrażenia Duchy 1	0	4	0	8	0	4	0	8
+Krucyfiks	2	W	Nastawienie Wampiry 2. Obrażenia Wampiry 2	0	0	0	4	0	0	0	4
+Bimber	4	W	Nastawienie Bardaki 1. Moc 1	4	0	0	0	0	0	0	0
+Klasa Średnia	4	W	Nastawienie Duchy 1. Nastawienie Wilkołaki 1. Obrażenia Duchy 1. Obrażenia Wilkołaki 1	0	4	4	0	0	4	4	0
+Spirytus	4	W	Nastawienie Duchy 1. Moc 1	0	4	0	0	0	0	0	0
+Śliwowica	4	W	Nastawienie Wampiry 1. Moc 1	0	0	0	4	0	0	0	0
+Pryta	4	W	Nastawienie Wilkołaki 1. Moc 1	0	0	4	0	0	0	0	0
+Kawa	6	W	Moc -2	0	0	0	0	0	0	0	0
+Czerwona Hołota	4	W	Nastawienie Bardaki 1. Nastawienie Duchy 2. 	4	8	0	0	0	0	0	0
+Roboczy Egzorcyzm	4	W	Obrażenia Duchy 2.	0	0	0	0	0	8	0	0
+Księga egzorcysty	3	W	Nastawienie Duchy 2. Obrażenia Duchy 2.	0	6	0	0	0	6	0	0
+Śrutowka	4	W	Nastawienie Bardaki 2. Obrażenia Bardaki 2, Obrażenia Wilkołaki 1	8	0	0	0	8	0	4	0
+Skan Telepatyczny	2	W	W fazie R region z Wędrowyczem niepodlega żadnym kartą akcjii.	0	0	0	0	0	0	0	0
+Jakubizm	1	W	Jeżeli Wędrowyczowi po fazie ataku zostaną jakieś obrażenia to wyzeruj rasę na którą szedł obecnie i wykonaj ponownie fazę poruszania nim według pozostałych statystyk.	0	0	0	0	0	0	0	0
+Uduchowienie	1	W	Nastawienie Duchy 1. Obrażenia Duchy 2. Jeśli Wędrowycz zabije w tej rundzie conajmniej 2 duchy, zyskuje +2 mocy na następną rundę.	0	1	0	0	0	2	0	0
+Biały Kieł	1	W	Nastawienie Wilkołaki 2. Jeśli Wędrowycz zabije w tej rundzie conajmniej 2 wilkolaki, zyskuje +2 mocy na następną rundę.	0	0	2	0	0	0	0	0
+Drakula Psikula	1	W	Nastawienie Wampiry 2. Jeśli Wędrowycz zabije w tej rundzie conajmniej 2 wampiry, zyskuje +2 mocy na następną rundę.	0	0	0	2	0	0	0	0
+Vladzio D.	1	W	Nastawienie Wampiry 1, Obrażenia Wampiry 1. Gracz traci 2 punkty za każdego straconego wampira w tej rundzie	0	0	0	1	0	0	0	1
+Kundel bury	1	W	Nastawienie Wilkołaki 1, Obrażenia Wilkołaki 1. Gracz traci 2 punkty za każdego straconego wilkolaka w tej rundzie	0	0	1	0	0	0	1	0
+Ukraiński Duracel	2	W	W tej rundzie wszystkie modyfikatory mocy liczą się podwójnie.	0	0	0	0	0	0	0	0
+Dusza na ramieniu	2	W	Nastawienie Duchy 1. Za kazdego zabitego przez Wędrowycza Ducha w tej rundzie, gracz musi odrzucić jedną kartę z ręki	0	2	0	0	0	0	0	0
+PA PA Wilk	1	W	Nastawienie Wilkołaki 2. Za każdego zabitego Wilkołaka w tej rundzie, gracz musi ściągnąć jednego swojego Bardaka z tego samego regionu. Karta działa również w fazie Ruchu	0	0	2	0	0	0	0	0
+Prawie jak komar	1	W	Nastawienie Wampiry 1. Gracz (bądź gracze) ktorzy starcili najwiecej wampirów w tej fazie muszą usunąć jednego swojego bardaka z planszy	0	0	0	1	0	0	0	0
+Z rozpędu	4	W	Nastawienie Bardaki 2. Za każde zabite przez Wędrowycza 2 bardaki, gracz musi usunąć innego swojego pionka z tego regionu	8	0	0	0	0	0	0	0
+Ciasno	2	W	Po walce z Wędrowyczem pionki najmiej licznej nacji w najbardziej zaludnionym regionie przesówane są do sąsiednich regionów.	0	0	0	0	0	0	0	0
+Koń	4	W	Zasięg wędrowycza w tej rundzie to 2.	0	0	0	0	0	0	0	0
+Śmierdzące onuce	2	W	Po fazie wędrowycza, każdy gracz przesówa swoje pozostałe przy życiu Bardaki z regionu z wendrowycze do przylegających regionów	0	0	0	0	0	0	0	0
+ADHD	1	W	Wędrowycz w tej rundzie nie może pozostać w tym samym regionie. Jeżeli rasa, na którą się nastawił jest w tym regionie porusz Wędrowycza według kolejnego nastawienia. Jeżeli brakuje nastawień pierwszy gracz wybiera	0	0	0	0	0	0	0	0
+Psi handel	3	R	Wymien 2 Bardaki na 1 Wilkołaka bądź 1 Wilkołaka na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu.	0	0	0	0	0	0	0	0
+Dusza na ramieniu	3	R	Wymien 2 Bardaki na 1 Ducha bądź 1 ducha na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu	0	0	0	0	0	0	0	0
+Totem	2	R	Wystaw totem do regionu z bardakiem dowolnego koloru.	0	0	0	0	0	0	0	0
+Awans	2	R	Wymien 2 Bardaki na 1 Wampira bądź 1 Wampira na 2 Bardaki. Wymiana odbywa się w obrębie jednego regionu	0	0	0	0	0	0	0	0
+Rezurekcja	5	R	Jeżeli pionek wyższej rasy zginął w tej rundzie, wraca on na planszę do regionu zdominowanego przez wlaściciela.	0	0	0	0	0	0	0	0
+Do lombardu	2	R	Wymien 4 Bardaki na 2 pionki z jednej z wyższych ras bądz 2 pionki jednej z wyższych ras na 4 Bardaki. Wymiana obejmuje całą planszę.	0	0	0	0	0	0	0	0
+Reprodukcja	4	R	Dołóż Bardaka do regionu ze swoim Bardakiem albo przylegającego.	0	0	0	0	0	0	0	0
+Przewaga rasowa	3	R	Jeżeli w regionie znajdują sie Wampiry tylko twojego koloru to  możesz ugryść bardaka dowolnego innego koloru i zamienić go w swojego Wampira.	0	0	0	0	0	0	0	0
+Akcja Degeneracja	3	R	Wilkołak gryzie jednego dowolnego Bardaka w tym samym regionie. Bardak ten zapomina o swojej przynależności partyjnej. Odwracany jest na lewą stronę.	0	0	0	0	0	0	0	0
+Przewaga duchowa	5	R	Wskaż dowolnego Ducha. Przesuń jednego pionka innego koloru i rasy do przylegającego regionu	0	0	0	0	0	0	0	0
+Ograniczona wyobraźnia	3	R	Zmiejsz limit kart na ręce wskazanego gracza o 1 w następnej turze	0	0	0	0	0	0	0	0
+Poszerzone Horyzonty	2	R	Zwiększ swój limit kart o 2  w następnej turze	0	0	0	0	0	0	0	0
+Choroba weneryczna	7	R	REAKCJA: Zagrana karta przeciwnika nie działa	0	0	0	0	0	0	0	0
+Dobra okazja	2	R	Wymień 1 kartę ze swojej ręki na losową kartę z ręki przeciwnika	0	0	0	0	0	0	0	0
+Okazja stulecia	3	R	Wskaż gracza i zabierz mu 3 karty z ręki. Jedną zostaw sobie pozostałe zwróć.	0	0	0	0	0	0	0	0
+Relokacja 	4	R	Przesuń totem na sąsiednie nie posiadajace totemu pole	0	0	0	0	0	0	0	0
+Wola boska	4	R	Zagraj karte z wierzchu kupki kart odrzuconych	0	0	0	0	0	0	0	0
+To się przyda	3	R	REAKCJA Zabierz właśnie zagraną kartę, następna tura cię mija. Nie możesz tego zrobić jeżeli jesteś ostatnim graczem w fazie ruchu.	0	0	0	0	0	0	0	0
+Boska Protekcja	5	R	REAKCJA :  Kiedy twój Bardak ma zginąć, przesun go do sąsiedniego regionu	0	0	0	0	0	0	0	0
+Zaginiony w akcji	5	R	Zabij jednego swojego pionka z planszy zyskaj za to 1 punkt zwycięstwa.	0	0	0	0	0	0	0	0
+Za Kucyka!!!	5	R	Zabij cudzego pionka z planszy. Strać za to punkt zwycięstwa.	0	0	0	0	0	0	0	0
+Już jutro pierwszy	3	R	Przesuń dowolną punktację o turę w dowolnym kierunku. Punktacje nie mogą się się nachodzić i nie mogę przejśc poza ostatnią turę.	0	0	0	0	0	0	0	0
+Spiskowiec	3	R	Zwiększ minimalny limit kart do zagrania w fazie Wędrowycza przez wskazanego gracza o 2 w następnej rundzie.	0	0	0	0	0	0	0	0
+Bonusik	3	R	Wystaw mały zestaw początkowy o ile masz na niego pionki. Strać 1 punkt zwycięstwa	0	0	0	0	0	0	0	0
+Bonus	2	R	Wystaw średni zestaw początkowy o ile masz na niego pionki. Strać 2 punkty zwycięstwa	0	0	0	0	0	0	0	0
+Mega Bonus	1	R	Wystaw duży zestaw początkowy o ile Cię na niego stać. Strać 3 punkty zwycięstwa	0	0	0	0	0	0	0	0
+Loteria	4	W	Moc 1. Dodaj kartę z talii kart nie odkrytych.	0	0	0	0	0	0	0	0
+Rambo	3	R	Jeżeli twój pionek pozostał jako jedyny w regionie zyskaj punkt zwycięstwa i przesuń go na sąsiednie pole.	0	0	0	0	0	0	0	0
+Emigracja	3	R	Aktualny gracz wskazuje region. Począwszy od następnego gracza w kolejności każdy gracz musi przemieścić jednego swojego pionka ze wskazanego rejonu. Aktualny gracz może pominąć swoją kolejkę	0	0	0	0	0	0	0	0
+Wymiana międzynarodowa	4	R	Zamień miejscami 2 pionki z sąsiednich regionów. Pionki muszą być innej rasy i koloru	0	0	0	0	0	0	0	0
+Przydupas	3	R	Zamień jednego pionka w sługę. Odwróć go kolorem w dół.								
+Przymusowe nawrócenie	3	R	Zamien wskazanego sługę spowrotem w pełnoprawnego wroga Wędrowycza. Odwróć go kolorem do góry.								
+Trzecie Oko	1	R	Podejżyje następne wydarzenie. Następnie odłuż je spowrotem na wierzch lub podspód kupki.								

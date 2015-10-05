@@ -19,8 +19,6 @@ class Main extends Sprite
 		Log.initFD();
 		// Assets:
 		 //openfl.Assets.getBitmapData("img/assetname.jpg");
-		 var bitmap:Bitmap = new Bitmap(Assets.getBitmapData("img/bardak.jpg"));
-		 this.addChild(bitmap);
 		 var tmpFacade:AppFacade = new AppFacade();
 		 tmpFacade.startup(this);
 	}

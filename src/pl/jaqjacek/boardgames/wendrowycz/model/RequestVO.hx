@@ -9,10 +9,15 @@ class RequestVO
 {
 	public var notification:String;
 	public var data:String;
+	public var id:String;
+	public var returnNotification:String;
 	
 	public function new() 
 	{
-		
+		notification = '';
+		data = '';
+		id = '';
+		returnNotification = '';
 	}
 	
 	public function toString():String

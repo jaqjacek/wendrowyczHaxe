@@ -5,8 +5,11 @@ import org.puremvc.haxe.patterns.command.SimpleCommand;
 import pl.jaqjacek.boardgames.wendrowycz.controller.card.AddCardToProxyCommand;
 import pl.jaqjacek.boardgames.wendrowycz.controller.card.RAWLineToCardConvertCommand;
 import pl.jaqjacek.boardgames.wendrowycz.controller.card.RAWLoadCardsCommand;
+import pl.jaqjacek.boardgames.wendrowycz.controller.debug.DebugRegisterCommand;
+import pl.jaqjacek.boardgames.wendrowycz.controller.objects.RegisterScreenObjectCommand;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.AppNotifications;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.CardNotifications;
+import pl.jaqjacek.boardgames.wendrowycz.notifications.ScreenObjectNotification;
 
 /**
  * ...
@@ -28,6 +31,13 @@ class CommandsRegisterCommand extends SimpleCommand
 		
 		//url
 		facade.registerCommand(AppNotifications.READ_FROM_URL, ReadFromUrlCommand);
+		
+		//debug
+		facade.registerCommand(AppNotifications.READ_FROM_URL, ReadFromUrlCommand);
+		facade.registerCommand(AppNotifications.ACTIVATE_DEBUG, DebugRegisterCommand);
+		
+		//screenObjects
+		facade.registerCommand(ScreenObjectNotification.REGISTER_OBJECT, RegisterScreenObjectCommand);
 	}
 	
 }

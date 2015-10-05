@@ -1,5 +1,6 @@
 package pl.jaqjacek.boardgames.wendrowycz.controller;
 
+import haxe.Json;
 import haxe.Log;
 import openfl.errors.Error;
 import openfl.events.Event;
@@ -10,6 +11,8 @@ import openfl.net.URLRequestMethod;
 import openfl.net.URLLoaderDataFormat;
 import org.puremvc.haxe.interfaces.INotification;
 import org.puremvc.haxe.patterns.command.SimpleCommand;
+import pl.jaqjacek.boardgames.wendrowycz.model.RequestVO;
+import tjson.TJSON;
 
 /**
  * ...
@@ -25,7 +28,7 @@ class ReadFromUrlCommand extends SimpleCommand
 	
 	override public function execute(notification:INotification):Void 
 	{
-		var tmpURLRequest:URLRequest = new URLRequest("http://10.0.11.2/");
+		var tmpURLRequest:URLRequest = new URLRequest(AppConsts.WWW_URL);
 		tmpURLRequest.data = notification.getBody();
 		tmpURLRequest.method = URLRequestMethod.POST;
 		var tmpLoader:URLLoader = new URLLoader();
@@ -43,13 +46,14 @@ class ReadFromUrlCommand extends SimpleCommand
 	private function readCompleteHandler(e:Event):Void 
 	{
 		var tmpURLLoader:URLLoader = cast e.target;
-	
-		trace(tmpURLLoader.data);
+		tmpURLLoader.dataFormat = URLLoaderDataFormat.TEXT;
+		Log.trace(tmpURLLoader.data);
 		var tmpString:String = cast tmpURLLoader.data;
-		trace(tmpString);
-		Log.trace(tmpString);
-		Log.trace(tmpString.substr(2,8));
-		//
+		//var ereg:EReg = ~/\\t[0-9]*/g;
+		//tmpString = ereg.replace(tmpString, "___");
+		//Log.trace(tmpString);
+		var tmpRequest:RequestVO = cast TJSON.parse(tmpString);
+		facade.sendNotification(tmpRequest.notification, tmpRequest);
 	}
 	
 }

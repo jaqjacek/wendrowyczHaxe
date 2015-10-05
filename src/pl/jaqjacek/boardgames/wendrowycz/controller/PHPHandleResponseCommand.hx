@@ -18,7 +18,7 @@ class PHPHandleResponseCommand extends SimpleCommand
 	
 	override public function execute(notification:INotification):Void 
 	{
-		Lib.print(cast notification.getBody());
+		Lib.print(notification.getBody());
 	}
 	
 }

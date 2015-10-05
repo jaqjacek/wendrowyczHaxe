@@ -5,6 +5,7 @@ import org.puremvc.haxe.patterns.command.SimpleCommand;
 import pl.jaqjacek.boardgames.wendrowycz.model.RequestVO;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.PHPNotifications;
 import sys.io.File;
+import tjson.TJSON;
 
 /**
  * ...
@@ -22,7 +23,11 @@ class PHPReadFileCommand extends SimpleCommand
 	{
 		var tmpRequestVO:RequestVO = cast notification.getBody();
 		var tmpFile:String = File.getContent(tmpRequestVO.data);
-		facade.sendNotification(PHPNotifications.SEND_RESPONSE, tmpFile);
+		tmpRequestVO.data = tmpFile;
+		//tmpRequestVO.data = "tezt";
+		tmpRequestVO.notification = tmpRequestVO.returnNotification;
+		var tmpString:String =  TJSON.encode(tmpRequestVO);
+		facade.sendNotification(PHPNotifications.SEND_RESPONSE,tmpString);
 		
 	}
 	

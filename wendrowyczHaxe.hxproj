@@ -16,8 +16,8 @@
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
-    <class path="W:\_flashDevelop\Apps\haxe\lib\openfl\3,3,7" />
-    <class path="W:\_flashDevelop\Apps\haxe\lib\lime\2,6,7" />
+    <class path="W:\_flashDevelop\Apps\haxe\lib\openfl\3,3,9" />
+    <class path="W:\_flashDevelop\Apps\haxe\lib\lime\2,6,9" />
     <class path="W:\_flashDevelop\Apps\haxe\lib\actuate\1,8,6" />
     <class path="W:\_flashDevelop\Apps\haxe\lib\msignal\1,2,2" />
     <class path="W:\_flashDevelop\Apps\haxe\lib\tjson\1,4,0" />
@@ -29,7 +29,7 @@
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="openfl=3.3.7&#xA;lime=2.6.7&#xA;actuate=1.8.6&#xA;msignal=1.2.2&#xA;tjson=1.4.0&#xA;dconsole=5.0.0&#xA;hscript=2.0.4&#xA;openfl-next&#xA;tools=2.6.7&#xA;no-compilation&#xA;openfl-flash&#xA;web&#xA;display" />
+    <option directives="openfl=3.3.9&#xA;lime=2.6.9&#xA;actuate=1.8.6&#xA;msignal=1.2.2&#xA;tjson=1.4.0&#xA;dconsole=5.0.0&#xA;hscript=2.0.4&#xA;openfl-next&#xA;tools=2.6.9&#xA;no-compilation&#xA;openfl-flash&#xA;web&#xA;display" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="ApplicationMain" />

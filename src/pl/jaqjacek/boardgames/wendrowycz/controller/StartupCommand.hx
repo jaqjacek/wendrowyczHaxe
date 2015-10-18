@@ -43,6 +43,8 @@ class StartupCommand extends MacroCommand
 		
 		facade.sendNotification(AppNotifications.ACTIVATE_DEBUG);
 		facade.sendNotification(DebugNotifications.INIT_DEBUG);
+		
+		facade.sendNotification(AppNotifications.SHOW_BACKGROUND,"background1.jpg");
 	}
 	
 	

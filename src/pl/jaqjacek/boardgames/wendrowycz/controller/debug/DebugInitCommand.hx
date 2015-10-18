@@ -30,6 +30,12 @@ class DebugInitCommand extends SimpleCommand
 		DC.init();
 		DC.registerFunction(addScreenObject, "addScreenObject", "register screenObject to proxy, prameter is object file path");
 		DC.registerFunction(loadRawCards, "loadRawCards", "loadRawCards from server from gived fileName default: ");
+		DC.registerFunction(showBackground, "showBackground", "showBackground from parameter ");
+	}
+	
+	function showBackground(backgroundName:String='background1.jpg') 
+	{
+		facade.sendNotification(AppNotifications.SHOW_BACKGROUND, backgroundName);
 	}
 	
 	function addScreenObject(objectPath:String) 

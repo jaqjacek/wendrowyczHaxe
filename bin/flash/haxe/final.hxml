@@ -1,8 +1,8 @@
 -main ApplicationMain 
--cp W:/_flashDevelop/Apps/haxe/lib/openfl/3,3,7
--D openfl=3.3.7
--cp W:/_flashDevelop/Apps/haxe/lib/lime/2,6,7
--D lime=2.6.7
+-cp W:/_flashDevelop/Apps/haxe/lib/openfl/3,3,9
+-D openfl=3.3.9
+-cp W:/_flashDevelop/Apps/haxe/lib/lime/2,6,9
+-D lime=2.6.9
 -cp W:/_flashDevelop/Apps/haxe/lib/actuate/1,8,6
 -D actuate=1.8.6
 -cp W:/_flashDevelop/Apps/haxe/lib/msignal/1,2,2
@@ -17,7 +17,7 @@
 -cp lib-src
 -D native-trace
 -D openfl-next
--D tools=2.6.7
+-D tools=2.6.9
 -D flash-use-stage
 -D no-compilation
 -D openfl-flash

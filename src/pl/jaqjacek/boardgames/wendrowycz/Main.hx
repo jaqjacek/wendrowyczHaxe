@@ -19,7 +19,9 @@ class Main extends Sprite
 		Log.initFD();
 		// Assets:
 		 //openfl.Assets.getBitmapData("img/assetname.jpg");
+		 Containers.init(this);
 		 var tmpFacade:AppFacade = new AppFacade();
+		 
 		 tmpFacade.startup(this);
 	}
 }

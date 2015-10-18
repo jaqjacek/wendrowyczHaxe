@@ -12,4 +12,6 @@ class AppNotifications
 	
 	static public inline var ACTIVATE_DEBUG:String = "activateDebug";
 	
+	static public inline var SHOW_BACKGROUND:String = "showBackground";
+	
 }

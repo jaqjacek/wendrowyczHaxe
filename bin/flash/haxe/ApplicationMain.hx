@@ -242,7 +242,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "170",
+			build: "180",
 			company: "jaq",
 			file: "wendrowyczHaxe",
 			fps: 60,

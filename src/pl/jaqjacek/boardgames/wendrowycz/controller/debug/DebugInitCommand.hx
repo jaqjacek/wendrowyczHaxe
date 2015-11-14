@@ -39,28 +39,33 @@ class DebugInitCommand extends SimpleCommand
 	
 	function createPlayer() 
 	{
+		addScreenObject("pon_bardak.png");
+		addScreenObject("pon_ghost.png");
+		addScreenObject("pon_vamp.png");
+		addScreenObject("pon_werewolf.png");
+		
 		var elements:Array<BoardElementVO> = [];
 		for (i in  0...30) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "bardak"));
+			elements.push(BoardElementFactory.createPlayerPon(1, "bardak",facade));
 			
 		}
 		
 		for (i in  0...10) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "ghost"));
+			elements.push(BoardElementFactory.createPlayerPon(1, "ghost",facade));
 			
 		}
 		
 		for (i in  0...10) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "vamp"));
+			elements.push(BoardElementFactory.createPlayerPon(1, "vamp",facade));
 			
 		}
 		
 		for (i in  0...10) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "werewolf"));
+			elements.push(BoardElementFactory.createPlayerPon(1, "werewolf",facade));
 			
 		}
 		
@@ -69,13 +74,11 @@ class DebugInitCommand extends SimpleCommand
 			elem.onBoard = true;
 			elem.x = Math.random() * 400 + 100;
 			elem.y = Math.random() * 500 + 100;
-			elem.screenObject.init();
 		}
 		
 		for (so in elements) 
 		{
 			so.updateToBoard();
-			Containers.getGame().addChild(so.screenObject);
 		}
 	}
 	

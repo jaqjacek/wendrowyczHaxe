@@ -4,17 +4,17 @@ package pl.jaqjacek.boardgames.wendrowycz.model;
  * ...
  * @author ...
  */
-class ScreenObjectVOPool
+class ScreenObjectVOPool extends ScreenObjectVO
 {
 	var _screenObjects:Array<ScreenObjectVO>;
-	public var graphicsName:String;
 	
 	public function new() 
 	{
 		_screenObjects = [];
+		super();
 	}
 	
-	public function init(graphicsName:String) 
+	override public function init(graphicsName:String='') 
 	{
 		this.graphicsName = graphicsName;
 		for (i in 0...10) 
@@ -27,17 +27,16 @@ class ScreenObjectVOPool
 	function addObject():ScreenObjectVO 
 	{
 		var tmpScreenObject:ScreenObjectVO = new ScreenObjectVO();
-		tmpScreenObject.graphicsName = graphicsName;
-		tmpScreenObject.init();
+		tmpScreenObject.init(graphicsName);
 		_screenObjects.push(tmpScreenObject);
 		return tmpScreenObject;
 	}
 	
-	public function getScreenObject():ScreenObjectVO
+	override public function getScreenObject(objectName:String='') :ScreenObjectVO
 	{
 		for (so in _screenObjects) 
 		{
-			if (so.parent != null) {
+			if (so.active) {
 				return so;
 			}
 		}

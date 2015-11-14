@@ -36,7 +36,7 @@ class ScreenObjectProxy extends Proxy
 	{
 		for (sop in screenObjects) 
 		{
-			if (sop.graphicsName == graphicsName) {
+			if (sop.graphicsName == graphicsName && !sop.active) {
 				return sop.getScreenObject();
 			}
 		}

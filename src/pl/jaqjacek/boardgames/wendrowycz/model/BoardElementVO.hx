@@ -18,7 +18,12 @@ class BoardElementVO
 	
 	public var id:String;
 	
-	public var screenObject:ScreenObjectVO;
+	private var screenObject:ScreenObjectVO;
+	
+	public function setScreenObject(so:ScreenObjectVO) 
+	{
+		screenObject = so;
+	}
 	
 	public function new() 
 	{
@@ -34,13 +39,14 @@ class BoardElementVO
 	{
 		x = screenObject.x;
 		y = screenObject.y;
-
+		screenObject.active = true;
 	}
 	
 	public function updateToBoard() 
 	{
 		screenObject.x = x;
 		screenObject.y = y;
+		screenObject.active = true;
 	}
 
 }

@@ -9,7 +9,8 @@ import org.puremvc.haxe.patterns.proxy.Proxy;
 class ScreenObjectProxy extends Proxy
 {
 	public static inline var NAME:String = 'ScreenObjectProxy_';
-	public var screenObjects:Array<ScreenObjectVO>;
+	public var screenObjects:Array<ScreenObjectVOPool>;
+	
 	
 	public function new(?proxyName:String, ?data:Dynamic) 
 	{
@@ -23,11 +24,23 @@ class ScreenObjectProxy extends Proxy
 		screenObjects = [];
 	}
 	
-	public function addObject(objectName:String) 
+	public function addObject(graphicsName:String):ScreenObjectVOPool 
 	{
-		var tmpScreenObject:ScreenObjectVO = new ScreenObjectVO();
-		tmpScreenObject.graphicsName = objectName;
-		tmpScreenObject.init();
+		var tmpScreenObject:ScreenObjectVOPool = new ScreenObjectVOPool();
+		tmpScreenObject.init(graphicsName);
+		screenObjects.push(tmpScreenObject);
+		return tmpScreenObject;
+	}
+	
+	public function getScreenObject(graphicsName:String):ScreenObjectVO 
+	{
+		for (sop in screenObjects) 
+		{
+			if (sop.graphicsName == graphicsName) {
+				return sop.getScreenObject();
+			}
+		}
+		throw("NO ScreenObject of that name: " + graphicsName);
 	}
 	
 }

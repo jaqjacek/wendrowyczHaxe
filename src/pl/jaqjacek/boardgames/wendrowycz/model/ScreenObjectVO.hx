@@ -9,7 +9,16 @@ import openfl.display.Sprite;
  */
 class ScreenObjectVO extends Sprite
 {
+	var maxWidth:Float;
+	var maxHeight:Float;
+	
 	public var graphicsName:String;
+	
+	public function setSize(maxWidth:Float,maxHeight:Float) 
+	{
+		this.maxHeight = maxHeight;
+		this.maxWidth = maxWidth;
+	}
 	
 	public function new() 
 	{
@@ -22,7 +31,9 @@ class ScreenObjectVO extends Sprite
 			removeChildAt(0);
 		}
 		
-		addChild(new Bitmap(Assets.getBitmapData(graphicsName)));
+		addChild(new Bitmap(Assets.getBitmapData('img/' + graphicsName)));
+		this.width = maxWidth > 0 ? maxWidth:this.width;
+		this.height = maxHeight > 0 ? maxHeight:this.height;
 	}
 	
 }

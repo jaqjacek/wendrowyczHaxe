@@ -31,8 +31,6 @@ class AppFacade extends Facade
 	
 	override public function sendNotification(notificationName:String, ?body:Dynamic, ?type:String):Void 
 	{
-		
-		Log.info([sendNotification, notificationName, body, type]);
 		super.sendNotification(notificationName, body, type);
 	}
 	

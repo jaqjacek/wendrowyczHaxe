@@ -27,7 +27,6 @@ class CardProxy extends Proxy
 	public function addCard(p_card:CardVO) 
 	{
 		_cards.push(p_card);
-		Log.info(['cards amount', _cards.length]);
 	}
 	
 }

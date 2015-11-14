@@ -37,7 +37,7 @@ class DebugInitCommand extends SimpleCommand
 		DC.registerFunction(createPlayer, "createPlayer", "creates random player and puts his elements on Screen ");
 	}
 	
-	function createPlayer() 
+	function createPlayer(playerNumber:Int=1) 
 	{
 		addScreenObject("pon_bardak.png");
 		addScreenObject("pon_ghost.png");
@@ -47,25 +47,25 @@ class DebugInitCommand extends SimpleCommand
 		var elements:Array<BoardElementVO> = [];
 		for (i in  0...30) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "bardak",facade));
+			elements.push(BoardElementFactory.createPlayerPon(playerNumber, "bardak",facade));
 			
 		}
 		
 		for (i in  0...10) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "ghost",facade));
+			elements.push(BoardElementFactory.createPlayerPon(playerNumber, "ghost",facade));
 			
 		}
 		
 		for (i in  0...10) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "vamp",facade));
+			elements.push(BoardElementFactory.createPlayerPon(playerNumber, "vamp",facade));
 			
 		}
 		
 		for (i in  0...10) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(1, "werewolf",facade));
+			elements.push(BoardElementFactory.createPlayerPon(playerNumber, "werewolf",facade));
 			
 		}
 		

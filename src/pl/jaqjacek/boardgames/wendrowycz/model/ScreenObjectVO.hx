@@ -1,6 +1,8 @@
 package pl.jaqjacek.boardgames.wendrowycz.model;
+import haxe.Log;
 import openfl.Assets;
 import openfl.display.Bitmap;
+import openfl.display.DisplayObject;
 import openfl.display.Sprite;
 
 /**
@@ -9,8 +11,9 @@ import openfl.display.Sprite;
  */
 class ScreenObjectVO extends Sprite
 {
-	var maxWidth:Float;
-	var maxHeight:Float;
+	public var maxWidth:Float;
+	public var maxHeight:Float;
+	
 	public var active(default, set):Bool;
 	public var graphicsName:String;
 	
@@ -34,6 +37,7 @@ class ScreenObjectVO extends Sprite
 	{
 		this.maxHeight = maxHeight;
 		this.maxWidth = maxWidth;
+		update();
 	}
 	
 	public function new() 
@@ -49,10 +53,23 @@ class ScreenObjectVO extends Sprite
 		while (numChildren > 0) {
 			removeChildAt(0);
 		}
-		
 		addChild(new Bitmap(Assets.getBitmapData('img/' + this.graphicsName)));
-		this.width = maxWidth > 0 ? maxWidth:this.width;
-		this.height = maxHeight > 0 ? maxHeight:this.height;
+		update();
+	}
+	
+	public function update() 
+	{	
+		if (this.numChildren ==0) {
+			return;
+		}
+		var child:DisplayObject = this.getChildAt(0);
+		
+		if (maxWidth > 0)  {
+			child.width = maxWidth;
+		}
+		if (maxHeight > 0)  {
+			child.height = maxHeight;
+		}
 	}
 	
 	public function getScreenObject(objectName:String='') :ScreenObjectVO

@@ -17,7 +17,7 @@ class BoardElementFactory
 		tmpPon.owner = "player_" + Std.string(playerNumber);		
 		tmpPon.id = tmpPon.owner + "_" + ponType;
 		
-		var tmpScreenObject:ScreenObjectVO = proxy.getScreenObject("pon_" + ponType+".png");
+		var tmpScreenObject:ScreenObjectVO = proxy.getScreenObject(ponType);
 		tmpScreenObject.setSize(50, 50);
 		tmpPon.setScreenObject(tmpScreenObject);	
 		addPlayerPonColor(playerNumber, tmpScreenObject);

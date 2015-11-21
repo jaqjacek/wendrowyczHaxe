@@ -1,0 +1,57 @@
+{
+	"sheets": [
+		{
+			"name": "gameFile",
+			"columns": [
+				{
+					"typeStr": "0",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "path",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"name": "bardak",
+					"path": "img/pon_bardak.png"
+				},
+				{
+					"name": "ghost",
+					"path": "img/pon_ghost.png"
+				},
+				{
+					"name": "werewolf",
+					"path": "img/pon_werewolf.png"
+				},
+				{
+					"name": "vampire",
+					"path": "img/pon_vamp.png"
+				},
+				{
+					"name": "wendrowycz",
+					"path": "img/pon_wendrowycz.png"
+				},
+				{
+					"name": "totem",
+					"path": "img/pon_totem.png"
+				},
+				{
+					"name": "majdan",
+					"path": "img/pon_home.png"
+				},
+				{
+					"name": "background",
+					"path": "img/background1.jpg"
+				}
+			],
+			"separators": [],
+			"props": {}
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}

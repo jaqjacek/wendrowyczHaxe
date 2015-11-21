@@ -24,23 +24,24 @@ class ScreenObjectProxy extends Proxy
 		screenObjects = [];
 	}
 	
-	public function addObject(graphicsName:String):ScreenObjectVOPool 
+	public function addObject(graphicsId:String,graphicsName:String):ScreenObjectVOPool 
 	{
 		var tmpScreenObject:ScreenObjectVOPool = new ScreenObjectVOPool();
 		tmpScreenObject.init(graphicsName);
+		tmpScreenObject.id = graphicsId;
 		screenObjects.push(tmpScreenObject);
 		return tmpScreenObject;
 	}
 	
-	public function getScreenObject(graphicsName:String):ScreenObjectVO 
+	public function getScreenObject(graphicsID:String):ScreenObjectVO 
 	{
 		for (sop in screenObjects) 
 		{
-			if (sop.graphicsName == graphicsName && !sop.active) {
+			if (sop.id == graphicsID && !sop.active) {
 				return sop.getScreenObject();
 			}
 		}
-		throw("NO ScreenObject of that name: " + graphicsName);
+		throw("NO ScreenObject of that name: " + graphicsID);
 	}
 	
 }

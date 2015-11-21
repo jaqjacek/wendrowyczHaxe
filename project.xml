@@ -20,10 +20,12 @@
 	<haxelib name="msignal" />
 	<haxelib name="tjson" />
 	<haxelib name="dconsole" />
+	<haxelib name="castle" />
 	
 	<!-- assets -->
 	<icon path="assets/openfl.svg" />
 	<assets path="assets/img" rename="img" />
+	<assets path="db" rename="db" />
 	<assets path="assets/" rename="" />
 	
 	<!-- optimize output

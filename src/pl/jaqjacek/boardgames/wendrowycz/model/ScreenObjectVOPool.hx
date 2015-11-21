@@ -16,7 +16,7 @@ class ScreenObjectVOPool extends ScreenObjectVO
 	
 	override public function init(graphicsName:String='') 
 	{
-		this.graphicsName = graphicsName;
+		this.graphicsPath = graphicsName;
 		for (i in 0...10) 
 		{
 			addObject();
@@ -27,7 +27,7 @@ class ScreenObjectVOPool extends ScreenObjectVO
 	function addObject():ScreenObjectVO 
 	{
 		var tmpScreenObject:ScreenObjectVO = new ScreenObjectVO();
-		tmpScreenObject.init(graphicsName);
+		tmpScreenObject.init(graphicsPath);
 		_screenObjects.push(tmpScreenObject);
 		return tmpScreenObject;
 	}

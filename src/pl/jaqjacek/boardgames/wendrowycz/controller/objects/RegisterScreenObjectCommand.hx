@@ -20,9 +20,9 @@ class RegisterScreenObjectCommand extends SimpleCommand
 	override public function execute(notification:INotification):Void 
 	{
 		var nName:String = notification.getName();
-		var nBody:Dynamic = notification.getBody();
+		var nBody:Array<String> = cast notification.getBody();
 		var proxy:ScreenObjectProxy = cast facade.retrieveProxy(ScreenObjectProxy.NAME);
-		proxy.addObject(cast nBody);
+		proxy.addObject(nBody[0],nBody[1]);
 	}
 	
 }

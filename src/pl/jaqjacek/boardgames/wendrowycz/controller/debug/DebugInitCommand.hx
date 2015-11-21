@@ -1,5 +1,6 @@
 package pl.jaqjacek.boardgames.wendrowycz.controller.debug;
 
+import openfl.Assets;
 import org.puremvc.haxe.interfaces.INotification;
 import org.puremvc.haxe.patterns.command.SimpleCommand;
 import pgr.dconsole.DC;
@@ -30,19 +31,27 @@ class DebugInitCommand extends SimpleCommand
 	override public function execute(notification:INotification):Void 
 	{
 		DC.init();
+		DC.showConsole();
 		DC.registerFunction(addScreenObject, "addScreenObject", "register screenObject to proxy, prameter is object file path");
 		DC.registerFunction(loadRawCards, "loadRawCards", "loadRawCards from server from gived fileName default: ");
 		DC.registerFunction(showBackground, "showBackground", "showBackground from parameter ");
 		DC.registerFunction(showScreenObject, "showScreenObject", "showScreenObject ");
-		DC.registerFunction(createPlayer, "createPlayer", "creates random player and puts his elements on Screen ");
+		DC.registerFunction(createPlayer, "cp", "creates random player and puts his elements on Screen ");
 	}
 	
 	function createPlayer(playerNumber:Int=1) 
 	{
-		addScreenObject("pon_bardak.png");
-		addScreenObject("pon_ghost.png");
-		addScreenObject("pon_vamp.png");
-		addScreenObject("pon_werewolf.png");
+		#if js
+		DB.load(null);
+		#else
+		//Data.load(haxe.Resource.getString("db/pons.cdb"));
+		DB.load(Assets.getText("db/gameFiles.cdb"));
+		#end
+		for (file in DB.gameFile.all) {
+			addScreenObject(cast file.name,file.path);
+		}
+		
+
 		
 		var elements:Array<BoardElementVO> = [];
 		for (i in  0...30) 
@@ -59,7 +68,7 @@ class DebugInitCommand extends SimpleCommand
 		
 		for (i in  0...10) 
 		{
-			elements.push(BoardElementFactory.createPlayerPon(playerNumber, "vamp",facade));
+			elements.push(BoardElementFactory.createPlayerPon(playerNumber, "vampire",facade));
 			
 		}
 		
@@ -85,7 +94,7 @@ class DebugInitCommand extends SimpleCommand
 	function showScreenObject() 
 	{
 		var proxy:ScreenObjectProxy = cast facade.retrieveProxy(ScreenObjectProxy.NAME);
-		proxy.addObject('vamp3.jpg');
+		proxy.addObject("vamp",'vamp3.jpg');
 		Containers.getGame().addChild(proxy.getScreenObject('vamp3.jpg'));
 	}
 	
@@ -94,9 +103,9 @@ class DebugInitCommand extends SimpleCommand
 		facade.sendNotification(AppNotifications.SHOW_BACKGROUND, backgroundName);
 	}
 	
-	function addScreenObject(objectPath:String) 
+	function addScreenObject(objectId:String,objectPath:String) 
 	{
-		facade.sendNotification(ScreenObjectNotification.REGISTER_OBJECT, objectPath);
+		facade.sendNotification(ScreenObjectNotification.REGISTER_OBJECT, [objectId,objectPath]);
 	}
 	
 	function loadRawCards(cardFileName:String = 'rawCards.tsv') 

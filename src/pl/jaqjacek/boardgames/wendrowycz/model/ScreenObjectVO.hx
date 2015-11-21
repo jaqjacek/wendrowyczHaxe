@@ -15,7 +15,8 @@ class ScreenObjectVO extends Sprite
 	public var maxHeight:Float;
 	
 	public var active(default, set):Bool;
-	public var graphicsName:String;
+	public var graphicsPath:String;
+	public var id:String;
 	
 	function set_active(newActive:Bool) 
 	{
@@ -48,12 +49,12 @@ class ScreenObjectVO extends Sprite
 	public function init(graphicsName:String='') 
 	{
 		if (graphicsName != '') {
-			this.graphicsName = graphicsName;
+			this.graphicsPath = graphicsName;
 		}
 		while (numChildren > 0) {
 			removeChildAt(0);
 		}
-		addChild(new Bitmap(Assets.getBitmapData('img/' + this.graphicsName)));
+		addChild(new Bitmap(Assets.getBitmapData(this.graphicsPath)));
 		update();
 	}
 	

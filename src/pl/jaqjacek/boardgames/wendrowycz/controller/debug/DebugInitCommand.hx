@@ -50,9 +50,6 @@ class DebugInitCommand extends SimpleCommand
 		for (file in DB.gameFile.all) {
 			addScreenObject(cast file.name,file.path);
 		}
-		
-
-		
 		var elements:Array<BoardElementVO> = [];
 		for (i in  0...30) 
 		{

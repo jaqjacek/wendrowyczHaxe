@@ -45,11 +45,111 @@
 				},
 				{
 					"name": "background",
-					"path": "img/background1.jpg"
+					"path": "p"
 				}
 			],
 			"separators": [],
 			"props": {}
+		},
+		{
+			"name": "playerPons",
+			"columns": [
+				{
+					"typeStr": "6:gameFile",
+					"name": "pon",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"pon": "bardak"
+				},
+				{
+					"pon": "ghost"
+				},
+				{
+					"pon": "werewolf"
+				},
+				{
+					"pon": "vampire"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "boardPons",
+			"columns": [
+				{
+					"typeStr": "6:gameFile",
+					"name": "pon"
+				}
+			],
+			"lines": [
+				{
+					"pon": "wendrowycz"
+				},
+				{
+					"pon": "totem"
+				},
+				{
+					"pon": "majdan"
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "pon",
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "type",
+					"opt": true
+				},
+				{
+					"typeStr": "2",
+					"name": "onBoard",
+					"opt": true,
+					"display": null
+				},
+				{
+					"typeStr": "4",
+					"name": "x",
+					"opt": true
+				},
+				{
+					"typeStr": "4",
+					"name": "y",
+					"opt": true
+				},
+				{
+					"typeStr": "1",
+					"name": "owner",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "timestamp",
+					"opt": true,
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"index": 0,
+					"owner": "player1",
+					"type": "bardak",
+					"onBoard": true,
+					"x": 0,
+					"y": 0,
+					"timestamp": "0"
+				}
+			],
+			"separators": [],
+			"props": {
+				"hasIndex": true
+			}
 		}
 	],
 	"customTypes": [],

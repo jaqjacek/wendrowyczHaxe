@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hbox width="100%" height="100">
+	<button  text="Player1" id="player1" width="20"></button>
+	<button text="Player2" id="player2"></button>
+	<button text="Player3" id="player3"></button>
+	<button text="Player4" id="player4"></button>
+	<text text="currentPlayer: "></text>
+	<text text="-" id="currentPlayer"></text>
+</hbox>

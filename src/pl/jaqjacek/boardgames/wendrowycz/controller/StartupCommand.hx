@@ -7,6 +7,7 @@ import pl.jaqjacek.boardgames.wendrowycz.model.RequestVO;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.AppNotifications;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.CardNotifications;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.debug.DebugNotifications;
+import pl.jaqjacek.boardgames.wendrowycz.notifications.MenuNotifications;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.PHPNotifications;
 import tjson.TJSON;
 
@@ -43,8 +44,10 @@ class StartupCommand extends MacroCommand
 		
 		facade.sendNotification(AppNotifications.ACTIVATE_DEBUG);
 		facade.sendNotification(DebugNotifications.INIT_DEBUG);
-		
+		//
 		facade.sendNotification(AppNotifications.SHOW_BACKGROUND,"background1.jpg");
+		//facade.sendNotification(MenuNotifications.INIT_MENU);
+		//facade.sendNotification(MenuNotifications.SHOW_MENU);
 	}
 	
 	

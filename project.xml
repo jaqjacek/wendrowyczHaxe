@@ -21,10 +21,12 @@
 	<haxelib name="tjson" />
 	<haxelib name="dconsole" />
 	<haxelib name="castle" />
+	<haxelib name="haxeui" />
 	
 	<!-- assets -->
 	<icon path="assets/openfl.svg" />
 	<assets path="assets/img" rename="img" />
+	<assets path="assets/layouts" rename="layouts" />
 	<assets path="db" rename="db" />
 	<assets path="assets/" rename="" />
 	

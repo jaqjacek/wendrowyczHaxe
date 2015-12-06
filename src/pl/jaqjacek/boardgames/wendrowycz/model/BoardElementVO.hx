@@ -37,15 +37,15 @@ class BoardElementVO
 	
 	public function updateFromBoard() 
 	{
-		x = screenObject.x;
-		y = screenObject.y;
+		x = screenObject.getSprite().x;
+		y = screenObject.getSprite().y;
 		screenObject.active = true;
 	}
 	
 	public function updateToBoard() 
 	{
-		screenObject.x = x;
-		screenObject.y = y;
+		screenObject.getSprite().x = x;
+		screenObject.getSprite().y = y;
 		screenObject.active = true;
 	}
 

@@ -1,7 +1,5 @@
 package pl.jaqjacek.boardgames.wendrowycz.model;
-import haxe.Log;
 import org.puremvc.haxe.interfaces.IFacade;
-import pl.jaqjacek.boardgames.wendrowycz.AppFacade;
 
 /**
  * ...
@@ -41,10 +39,9 @@ class BoardElementFactory
 				
 		}
 		
-		screenObject.graphics.clear();
-		screenObject.graphics.beginFill(tmpColor, 1);
+		screenObject.getSprite().graphics.clear();
+		screenObject.getSprite().graphics.beginFill(tmpColor, 1);
 		var borderWidth:Float = 3;
-		Log.trace([screenObject.maxWidth, screenObject.height]);
-		screenObject.graphics.drawRect( -borderWidth, -borderWidth, screenObject.maxWidth + borderWidth*2, screenObject.maxHeight + borderWidth*2);
+		screenObject.getSprite().graphics.drawRect( -borderWidth, -borderWidth, screenObject.maxWidth + borderWidth*2, screenObject.maxHeight + borderWidth*2);
 	}
 }

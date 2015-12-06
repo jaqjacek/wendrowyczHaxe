@@ -7,9 +7,12 @@ import pl.jaqjacek.boardgames.wendrowycz.controller.card.AddCardToProxyCommand;
 import pl.jaqjacek.boardgames.wendrowycz.controller.card.RAWLineToCardConvertCommand;
 import pl.jaqjacek.boardgames.wendrowycz.controller.card.RAWLoadCardsCommand;
 import pl.jaqjacek.boardgames.wendrowycz.controller.debug.DebugRegisterCommand;
+import pl.jaqjacek.boardgames.wendrowycz.controller.menu.InitMenuCommand;
+import pl.jaqjacek.boardgames.wendrowycz.controller.menu.ShowMenuCommand;
 import pl.jaqjacek.boardgames.wendrowycz.controller.objects.RegisterScreenObjectCommand;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.AppNotifications;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.CardNotifications;
+import pl.jaqjacek.boardgames.wendrowycz.notifications.MenuNotifications;
 import pl.jaqjacek.boardgames.wendrowycz.notifications.ScreenObjectNotification;
 
 /**
@@ -42,6 +45,10 @@ class CommandsRegisterCommand extends SimpleCommand
 		
 		//background
 		facade.registerCommand(AppNotifications.SHOW_BACKGROUND, ShowBackgroundCommand);
+		
+		//menu
+		facade.registerCommand(MenuNotifications.INIT_MENU, InitMenuCommand);
+		facade.registerCommand(MenuNotifications.SHOW_MENU, ShowMenuCommand);
 	}
 	
 }

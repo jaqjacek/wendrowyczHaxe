@@ -1,5 +1,4 @@
 package pl.jaqjacek.boardgames.wendrowycz.model;
-import haxe.Log;
 import openfl.Assets;
 import openfl.display.Bitmap;
 import openfl.display.DisplayObject;
@@ -9,7 +8,7 @@ import openfl.display.Sprite;
  * ...
  * @author ...
  */
-class ScreenObjectVO extends Sprite
+class ScreenObjectVO
 {
 	public var maxWidth:Float;
 	public var maxHeight:Float;
@@ -17,18 +16,25 @@ class ScreenObjectVO extends Sprite
 	public var active(default, set):Bool;
 	public var graphicsPath:String;
 	public var id:String;
+	var _sprite:Sprite;
+	
+	public function getSprite():Sprite 
+	{
+		_sprite = _sprite == null ? new Sprite() : _sprite;
+		return _sprite;
+	}
 	
 	function set_active(newActive:Bool) 
 	{
 		if (newActive == false) {
-			if (parent != null) {
-				parent.removeChild(this);
+			if (_sprite.parent != null) {
+				_sprite.parent.removeChild(_sprite);
 			}
 		}
 		else {
-			if (parent  == null) {
+			if (_sprite.parent  == null) {
 				this.init();
-				Containers.getGame().addChild(this);
+				Containers.getGame().addChild(_sprite);
 			}
 		}
 		return active = newActive;
@@ -43,7 +49,7 @@ class ScreenObjectVO extends Sprite
 	
 	public function new() 
 	{
-		super();
+		_sprite = new Sprite();
 	}
 	
 	public function init(graphicsName:String='') 
@@ -51,19 +57,19 @@ class ScreenObjectVO extends Sprite
 		if (graphicsName != '') {
 			this.graphicsPath = graphicsName;
 		}
-		while (numChildren > 0) {
-			removeChildAt(0);
+		while (_sprite.numChildren > 0) {
+			_sprite.removeChildAt(0);
 		}
-		addChild(new Bitmap(Assets.getBitmapData(this.graphicsPath)));
+		_sprite.addChild(new Bitmap(Assets.getBitmapData(this.graphicsPath)));
 		update();
 	}
 	
 	public function update() 
 	{	
-		if (this.numChildren ==0) {
+		if (_sprite.numChildren ==0) {
 			return;
 		}
-		var child:DisplayObject = this.getChildAt(0);
+		var child:DisplayObject = _sprite.getChildAt(0);
 		
 		if (maxWidth > 0)  {
 			child.width = maxWidth;
@@ -76,6 +82,10 @@ class ScreenObjectVO extends Sprite
 	public function getScreenObject(objectName:String='') :ScreenObjectVO
 	{
 		return this;
+	}
+	
+	public function TJ_noEncode():Array<String>{
+		return ['_sprite'];
 	}
 	
 	

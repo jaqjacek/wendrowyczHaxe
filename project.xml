@@ -20,7 +20,6 @@
 	<haxelib name="msignal" />
 	<haxelib name="tjson" />
 	<haxelib name="dconsole" />
-	<haxelib name="castle" />
 	<haxelib name="haxeui" />
 	
 	<!-- assets -->

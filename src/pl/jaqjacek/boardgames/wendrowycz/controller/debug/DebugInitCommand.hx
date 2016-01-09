@@ -45,15 +45,13 @@ class DebugInitCommand extends SimpleCommand
 	
 	function createPlayer(playerNumber:Int=1) 
 	{
-		#if js
-		DB.load(null);
-		#else
-		//Data.load(haxe.Resource.getString("db/pons.cdb"));
-		DB.load(Assets.getText("db/gameFiles.cdb"));
-		#end
-		for (file in DB.gameFile.all) {
-			addScreenObject(cast file.name,file.path);
-		}
+		addScreenObject("bardak", "img/pon_bardak.png");
+		addScreenObject("ghost","img/pon_ghost.png");
+		addScreenObject("werewolf","img/pon_werewolf.png");
+		addScreenObject("vampire","img/pon_vamp.png");
+		addScreenObject("wendrowycz", "img/pon_wendrowycz.png");
+		addScreenObject( "totem","img/pon_totem.png");
+		addScreenObject("majdan","img/pon_home.png");
 		var elements:Array<BoardElementVO> = [];
 		for (i in  0...30) 
 		{
@@ -127,15 +125,13 @@ class DebugInitCommand extends SimpleCommand
 	
 	function cratePlayerFromJSON() 
 	{
-		#if js
-		DB.load(null);
-		#else
-		//Data.load(haxe.Resource.getString("db/pons.cdb"));
-		DB.load(Assets.getText("db/gameFiles.cdb"));
-		#end
-		for (file in DB.gameFile.all) {
-			addScreenObject(cast file.name,file.path);
-		}
+		addScreenObject("bardak", "img/pon_bardak.png");
+		addScreenObject("ghost","img/pon_ghost.png");
+		addScreenObject("werewolf","img/pon_werewolf.png");
+		addScreenObject("vampire","img/pon_vamp.png");
+		addScreenObject("wendrowycz", "img/pon_wendrowycz.png");
+		addScreenObject( "totem","img/pon_totem.png");
+		addScreenObject("majdan","img/pon_home.png");
 		var tmpStr:String = '{
      "_hxcls" : "pl.jaqjacek.boardgames.wendrowycz.model.PlayerVO"
     ,"number" : 1
